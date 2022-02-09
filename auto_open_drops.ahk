@@ -4,7 +4,7 @@ version := 1.3
 #SingleInstance force  
 
 #Persistent
-Menu, Tray, Tip , F1: start script`nF2: reload script`nF3: close script
+Menu, Tray, Tip , F1: start script`nF2: stop script`nF3: close script
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
