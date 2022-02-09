@@ -1,5 +1,7 @@
-1.1
-version := 1.1
+1.2
+version := 1.2
+
+#SingleInstance force  
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
