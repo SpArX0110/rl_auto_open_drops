@@ -33,7 +33,7 @@ FileAppend,
 (
 taskkill auto_open_drops.ahk
 del auto_open_drops.ahk
-curl -LJOhttps://github.com/SpArX0110/rl_auto_open_drops/releases/download/rl_auto_open_drops/auto_open_drops.ahk
+curl -LJO https://github.com/SpArX0110/rl_auto_open_drops/releases/download/rl_auto_open_drops/auto_open_drops.ahk
 start auto_open_drops.ahk
 EXIT /B
 ), update.bat
