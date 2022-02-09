@@ -31,13 +31,13 @@ gui, destroy
 file_exists := 0
 FileDelete, version.txt
 FileDelete, update.txt
-FileDelete, auto_open_drops.ahk
+FileDelete, auto_open_drops.exe
 FileAppend,
 (
-taskkill auto_open_drops.ahk
-del auto_open_drops.ahk
-curl -LJO https://github.com/SpArX0110/rl_auto_open_drops/releases/download/rl_auto_open_drops/auto_open_drops.ahk
-start auto_open_drops.ahk
+taskkill auto_open_drops.exe
+del auto_open_drops.exe
+curl -LJO https://github.com/SpArX0110/rl_auto_open_drops/releases/download/rl_auto_open_drops/auto_open_drops.exe
+start auto_open_drops.exe
 EXIT /B
 ), update.bat
 run update
@@ -68,4 +68,3 @@ Loop
 
 F2::Reload
 F3::ExitApp
-
