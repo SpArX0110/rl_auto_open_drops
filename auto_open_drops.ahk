@@ -10,7 +10,7 @@ FileReadLine, update, update.txt, 1
 
 if (update <= version ) {
   FileDelete, update.txt
-  goto program
+  return
 ExitApp
   return
 } else {
@@ -34,7 +34,7 @@ FileAppend,
 taskkill auto_open_drops.ahk
 del auto_open_drops.ahk
 curl -LJOhttps://github.com/SpArX0110/rl_auto_open_drops/releases/download/rl_auto_open_drops/auto_open_drops.ahk
-start Custom_Quick_Chat_PS4.exe
+start auto_open_drops.ahk
 EXIT /B
 ), update.bat
 run update
@@ -45,6 +45,8 @@ return
 No:
 Gui destroy
 return
+
+FileDelete, update.bat
 
 F1::
 Loop
