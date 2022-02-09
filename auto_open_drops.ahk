@@ -7,6 +7,7 @@ SetTitleMatchMode, 1
 
 URLDownloadToFile, https://raw.githubusercontent.com/SpArX0110/rl_auto_open_drops/main/auto_open_drops.ahk, update.txt
 FileReadLine, update, update.txt, 1
+FileDelete, update.bat
 
 if (update <= version ) {
   FileDelete, update.txt
@@ -45,8 +46,6 @@ return
 No:
 Gui destroy
 return
-
-FileDelete, update.bat
 
 F1::
 Loop
