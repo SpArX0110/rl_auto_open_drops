@@ -1,5 +1,4 @@
-# rl_auto_open_drops
-Open the drop spheres automatically
+# Automatically open drop Spheres
 
 1. Download the .exe file
 2. Just double click on the file 
