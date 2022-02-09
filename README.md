@@ -1,7 +1,7 @@
 # rl_auto_open_drops
 Open the drop spheres automatically
 
-1. Download the ahk. file
+1. Download the .exe file
 2. Just double click on the file 
 3. Make a new preset of a car (because it will equip the new drop directly)
 4. Go to the drop opening screen 
