@@ -1,5 +1,5 @@
-1.4
-version := 1.4
+1.45
+version := 1.45
 
 #SingleInstance force  
 
@@ -59,11 +59,9 @@ Gui destroy
 return
 
 Program:
-Loop{
-	ToolTip, Waiting for Rocket League to start!!!, 0, 0
-if WinExist("Rocket League")
-		break
-}
+ToolTip, Waiting for Rocket League to start!!!, 0, 0
+
+WinWait, Rocket League
 
 ToolTip, F1: open drops`nF2: identify prints`nF3: trade in items`nF4: stop script`nF5: close script, 0, 0
 
