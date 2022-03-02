@@ -19,6 +19,8 @@ FileDelete, update.bat
 if (update <= version ) {
   FileDelete, update.txt
   goto Program
+  ExitApp
+return
 } 
 
 else {
