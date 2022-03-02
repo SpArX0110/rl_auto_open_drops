@@ -1,5 +1,5 @@
-1.45
-version := 1.45
+1.5
+version := 1.5
 
 #SingleInstance force  
 
@@ -19,22 +19,16 @@ FileDelete, update.bat
 if (update <= version ) {
   FileDelete, update.txt
   goto Program
-  ExitApp
-return
-} 
-
-else {
+ExitApp
+  return
+} else {
 	FileDelete, update.txt
-Gui +AlwaysOnTop +LastFound +ToolWindow -Caption
  Gui, Add, Text, vtext, NEW UPDATE FOUND!`nDo you want to update?
  Gui, Add, Button, h21 w60 gYes, YES    
  Gui, Add, Button, xp+65 h21 w60 gNo, No
 gui, show
 return
 }
-
-
-
 
 Yes:
 {
