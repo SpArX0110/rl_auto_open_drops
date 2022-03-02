@@ -1,5 +1,5 @@
-1.45
-version := 1.45
+1.5
+version := 1.5
 
 #SingleInstance force  
 
