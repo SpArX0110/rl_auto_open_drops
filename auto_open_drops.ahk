@@ -1,5 +1,5 @@
-1.5
-version := 1.5
+1.45
+version := 1.45
 
 #SingleInstance force  
 
@@ -27,7 +27,7 @@ Gui +AlwaysOnTop +LastFound +ToolWindow -Caption
  Gui, Add, Text, vtext, NEW UPDATE FOUND!`nDo you want to update?
  Gui, Add, Button, h21 w60 gYes, YES    
  Gui, Add, Button, xp+65 h21 w60 gNo, No
-gui, show, 0, 0
+gui, show
 return
 }
 
